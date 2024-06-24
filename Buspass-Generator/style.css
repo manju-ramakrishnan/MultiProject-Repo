@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  top: 0px;
+  margin-bottom: 20px;
+}
+.h2 {
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+form {
+  box-shadow: 0 0 10px rgb(108, 108, 108);
+  padding: 25px 45px 25px 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgb(255, 242, 224);
+  width: 20%;
+  margin: 0 auto;
+}
+.signup_form {
+  height: 400px;
+  width: 30%;
+}
+input {
+  margin: 5px 5px 5px 0;
+  width: 100%;
+}
+.button {
+  width: 20%;
+  margin: 0 30px 0 110px;
+}
+.signup-button {
+  margin: 10px 30px 0 130px;
+  width: 35%;
+}
+.logout-button {
+  margin: 30px 15px;
+  background-color: rgb(25, 165, 0);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
